@@ -1,4 +1,4 @@
-From tomcat
+From tomcat:9
 WORKDIR /usr/local/tomcat/bin
 RUN chmod -R 777 /usr/local/tomcat
 RUN apt-get update -y 
